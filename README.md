@@ -32,6 +32,7 @@ sudo apt-get install ros-<rosdistro>-web-video-server
 * Install Caffe with CUDA support for a 10x speedup. Recommended: CUDA 8.0, CUDNN 5.1 
 * Use gcc-4.9 for compiling matcaffe. Folow instructions [here](http://www.cs.jhu.edu/~cxliu/2016/compiling-matcaffe-on-ubuntu-1604.html).
 * Type ```roboticsAddons``` into the Matlab console, and install the  ROS Custom Messages interface.
+* At the time of writing this, Matlab R2016b had an issue with installing third party extensions. Follow the instructions [here](https://www.mathworks.com/support/bugreports/1741173) to install Robotics AddOns. 
 * Type ```rosgenmsg <path-to-workspace-src>```, follow the instructions and restart Matlab
 * Install the [toolbox](https://github.com/pdollar/toolbox) for random forests
 * Download the [model](http://gazefollow.csail.mit.edu/downloads/model.zip) trained by [Recasens et al.](http://people.csail.mit.edu/khosla/papers/nips2015_recasens.pdf), unzip it and place all files in the matlab folder.
